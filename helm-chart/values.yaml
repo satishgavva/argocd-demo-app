@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: adiii717/demo-nodejs
+  repository: satishgavva/dockerchange
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "bitcoinv1"
 
 imagePullSecrets: []
 nameOverride: ""
